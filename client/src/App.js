@@ -8,8 +8,16 @@ function App() {
   return (
     <div>
       <Navbar />
-      <SearchList />
-      <MovieInfo />
+      <div className="grid-rows-1">
+        <div className="grid grid-cols-12">
+          <div className="col-span-5">
+            <SearchList />
+          </div>
+          <div className="col-span-7">
+            <MovieInfo />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
