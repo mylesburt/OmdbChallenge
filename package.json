@@ -1,0 +1,23 @@
+{
+  "name": "omdbchallenge",
+  "version": "1.0.0",
+  "description": "An OMDB API driven movie search engine.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mylesburt/OmdbChallenge.git"
+  },
+  "author": "Myles Burt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mylesburt/OmdbChallenge/issues"
+  },
+  "homepage": "https://github.com/mylesburt/OmdbChallenge#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
