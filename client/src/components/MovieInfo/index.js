@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles.css";
 
-function MovieInfo() {
+function MovieInfo(props) {
   return (
     <div className="container">
       <div className="grid-rows-1 h-auto">
